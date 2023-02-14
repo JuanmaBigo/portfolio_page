@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 3rem;
+    min-height: 100vh;
+}
+
+.linkedinBox{
+    border: #fff 1px solid;
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 1rem;
+}
+
+
+.linkedin{
+    text-decoration: none;
+    color: rgb(154, 130, 233);
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario .input{
+    width: 30vw;
+}
+
+.button{
+    margin-top: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+.button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
